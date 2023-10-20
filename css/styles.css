@@ -27,7 +27,7 @@ ol {
 
 .img{
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 
@@ -87,7 +87,9 @@ body {
 /* ========== PAGE HEADER ========== */
 
 .page-header{
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-ul{
@@ -109,6 +111,7 @@ body {
 
 .logo-header {
     font-family: 'Raleway', sans-serif;
+    margin-right: 76px;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -121,9 +124,6 @@ body {
 
 .logo-studio {
     color: #2e2f42;
-    margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo-studio-futter {
