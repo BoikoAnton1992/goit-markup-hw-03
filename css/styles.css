@@ -150,7 +150,7 @@ body {
     color: #F4F4FD;
 }
 
-.link-padding{
+.link-header{
     padding-top: 24px;
     padding-bottom: 24px;
     letter-spacing: 0.02em;
@@ -161,8 +161,8 @@ body {
     font-weight: 500;
 }
 
-.link-studio:hover,
-.link-studio:focus {
+.link-header:hover,
+.link-header:focus {
     color: #404bbf;
 }
 
@@ -196,6 +196,14 @@ body {
     padding-bottom: 188px;
 }
 
+.container-section1{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .main-title {
     max-width: 496px;
     font-size: 56px;
@@ -205,10 +213,16 @@ body {
     letter-spacing: 1.12px;
     text-align: center;
     color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
-
+  
 
 .order-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -234,6 +248,7 @@ body {
     padding-bottom: 120px;
 }
 
+
 .content-title{
     margin-bottom: 8px;
 }
@@ -255,6 +270,8 @@ body {
 
 .our-team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-list {
