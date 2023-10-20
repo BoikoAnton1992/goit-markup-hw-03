@@ -314,6 +314,10 @@ margin-bottom: 72px;
 /* ========== SECTION 4 ========== */
 
 
+.portfolio-items{
+margin-bottom: 8px;
+}
+
 .our-portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
@@ -335,7 +339,6 @@ list-style-type: none;
 display: flex;
 column-gap: 24px;
 row-gap: 48px;
-margin-bottom: 8px
 }
 
 .our-portfolio-items{
