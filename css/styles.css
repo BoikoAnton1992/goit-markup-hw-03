@@ -27,7 +27,7 @@ ol {
 
 .img{
     display: block;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 
@@ -178,6 +178,8 @@ body {
 /* ========== SECTION 1 ========== */
 .hero-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
