@@ -93,8 +93,6 @@ body {
 .page-ul{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-address{
@@ -136,6 +134,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #F4F4FD;
+}
+
+.linl-padding{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link-studio {
