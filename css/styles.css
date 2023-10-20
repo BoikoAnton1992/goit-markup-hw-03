@@ -265,6 +265,10 @@ body {
 
 /* ========== SECTION 3 ==========/ */
 
+.our-team-title{
+margin-bottom: 72px;
+}
+
 .our-team-section {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -276,7 +280,6 @@ body {
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
-    
 }
 
 
@@ -286,6 +289,13 @@ body {
     margin-bottom: 72px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.text-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .our-team-name{
