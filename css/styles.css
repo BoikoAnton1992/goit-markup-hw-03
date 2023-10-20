@@ -7,7 +7,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
+    /* display: flex; */
 }
 
 button {
@@ -92,6 +92,10 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.flex{
+    display: flex;
 }
 
 /* ========== GLOBAL ==========/ */
@@ -196,13 +200,6 @@ body {
     padding-bottom: 188px;
 }
 
-.container-section1{
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 .main-title {
     max-width: 496px;
@@ -277,11 +274,18 @@ body {
 .our-team-list {
     list-style-type: none;
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    
 }
+
 
 .our-team-items {
     color: #F4F4FD;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    margin-bottom: 72px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-name{
