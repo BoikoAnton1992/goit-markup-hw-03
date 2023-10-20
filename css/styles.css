@@ -86,10 +86,13 @@ body {
 
 /* ========== PAGE HEADER ========== */
 
+.page-header{
+    border-bottom: 1px solid #e7e9fc
+}
+
 .page-ul{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .header-address{
@@ -101,6 +104,7 @@ body {
 
 .page-nav{
     display: flex;
+    align-items: center
 }
 
 .logo-header {
@@ -117,6 +121,9 @@ body {
 
 .logo-studio {
     color: #2e2f42;
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-studio-futter {
