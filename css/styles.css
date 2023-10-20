@@ -88,13 +88,13 @@ body {
 
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-ul{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address{
@@ -144,7 +144,7 @@ body {
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .link-studio:hover,
