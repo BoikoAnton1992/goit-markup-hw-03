@@ -234,6 +234,10 @@ body {
     padding-bottom: 120px;
 }
 
+.content-title{
+    margin-bottom: 8px;
+}
+
 .content-list{
     display: flex;
     gap: 24px;
