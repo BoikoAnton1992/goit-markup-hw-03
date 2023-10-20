@@ -25,7 +25,7 @@ ol {
     padding-left: 0;
 }
 
-.img{
+img{
     display: block;
     max-width: 100%;
 }
@@ -81,6 +81,19 @@ body {
     list-style-type: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ========== GLOBAL ==========/ */
 
 
@@ -90,10 +103,6 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.page-ul{
-    display: flex;
-    gap: 40px;
-}
 
 .header-address{
     margin-left: auto;
@@ -105,6 +114,11 @@ body {
 .page-nav{
     display: flex;
     align-items: center
+}
+
+.page-ul {
+    display: flex;
+    gap: 40px;
 }
 
 .logo-header {
@@ -136,12 +150,9 @@ body {
     color: #F4F4FD;
 }
 
-.linl-padding{
+.link-padding{
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.link-studio {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
@@ -186,6 +197,7 @@ body {
 }
 
 .main-title {
+    max-width: 496px;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -197,6 +209,10 @@ body {
 
 
 .order-button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
@@ -210,7 +226,10 @@ body {
     background: #404BBF;
 }
 /* ========== SECTION 1 ==========/ */
-
+.content-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* ========== SECTION 2 ========== */
 
