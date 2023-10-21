@@ -375,8 +375,6 @@ row-gap: 48px;
     margin-bottom: 16px;
 }
 
-
-
 .futter{
     font-family: 'Roboto', sans-serif;
         font-size: 16px;
@@ -391,7 +389,7 @@ row-gap: 48px;
 }
 
 .futter-text{
-max-width: 264p
+max-width: 264px;
 }
 
 
